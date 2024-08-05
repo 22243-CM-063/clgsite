@@ -15,11 +15,11 @@ body {
 	
 
 }
-li{
+.contents > table > li {
 	background-color: white;
 	padding: 6px;
 }
-li:hover{
+.contents > table > li :hover{
 	color: white;
 	background-color: #008bff;
 	cursor: pointer;
@@ -68,9 +68,20 @@ th{
 	align-items: center;
 	
 h1{
-	text-align:center;color:white; background-color: #008bff;}
-	td{
-		text-align:center;
+}
+td{
+	text-align:center;
+}	
+#mytab{
+	background-color: transparent;
+	color: black;
+}
+#text-depart{
+	
+	background-color: #008bff; 
+
+}
+
 /*display: grid; 
             grid: auto auto / auto auto auto auto; 
             grid-gap: 10px; 
