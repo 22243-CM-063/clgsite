@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.nav-tabs > li > a {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.tab-content {
+    padding: 15px;
+}
+#contents{
+	list-style: none;
+	
+
+}
+li{
+	background-color: white;
+	padding: 6px;
+}
+li:hover{
+	color: white;
+	background-color: #008bff;
+	cursor: pointer;
+}
+#list{
+	width:25%;
+
+}
+a{
+	color:black;
+	text-decoration: none;
+}
+a:hover{
+	color: white;
+	background-color: blue;
+}
+th{
+	padding: 10px;
+} 
+#cse{
+	max-height: 175px;
+	max-width: 175px;
+	display: flex;
+	padding: 15px;
+}
+#ece{
+	max-height: 175px;
+	max-width: 175px;
+	display: flex;
+	padding: 15px;
+}
+#eee{
+	max-height: 175px;
+	max-width: 175px;
+	display: flex;
+	padding: 15px;
+}
+#mech{
+	max-height: 200px;
+	max-width: 190px;
+	display: flex;
+	padding: 15px;
+}
+#branchicons{
+	padding-right:10px;
+	align-items: center;
+	
+h1{
+	text-align:center;color:white; background-color: #008bff;}
+	td{
+		text-align:center;
+/*display: grid; 
+            grid: auto auto / auto auto auto auto; 
+            grid-gap: 10px; 
+            background-color: green; 
+            padding: 10px;*/
